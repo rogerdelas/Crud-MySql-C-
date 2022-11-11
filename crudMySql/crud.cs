@@ -118,6 +118,11 @@ namespace MetroSetUi
             cbx_categoria.SelectedValue = dataGridView1.Rows[e.RowIndex].Cells["tbl_categoria_id"].Value.ToString();
             cbx_fornecedor.SelectedValue = dataGridView1.Rows[e.RowIndex].Cells["tbl_fornecedor_id"].Value.ToString();
         }
+        private void btn_close_click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+        
     }
 }
 

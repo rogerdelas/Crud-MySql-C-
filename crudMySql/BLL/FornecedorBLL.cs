@@ -17,4 +17,8 @@ namespace crudMySql.BLL
             return objDAL.ExecutarConsulta($"select * from {tabela} order by descricao;");
         }
     }
+        public DataTable ListarCategorias()
+        {
+            return objDAL.ExecutarConsulta($"select * from {tabela} order by descricao;");
+        }
 }
